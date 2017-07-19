@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100");
+
 
 /*
 	Helios by HTML5 UP
@@ -2218,10 +2220,12 @@
 			display: inline-block;
 			margin: 0;
 			height: 21px;
+			/*
 			border-left: solid 1px rgba(192, 192, 192, 0.35);
 			border-right: solid 1px rgba(192, 192, 192, 0.35);
+			*/
 		}
-
+/*
 			#nav > ul:before, #nav > ul:after {
 				content: '';
 				display: block;
@@ -2243,7 +2247,7 @@
 				right: 100%;
 				margin-right: 1px;
 			}
-
+*/
 			#nav > ul > li {
 				display: inline-block;
 				margin: -9px 0.5em 0 0.5em;
@@ -3039,4 +3043,23 @@
 						margin-bottom: 2em;
 					}
 
+	}
+
+/* styles for scramble text script */
+
+	.scramble {
+		font-family: 'Roboto Mono', monospace;
+  		height: 100%;
+  		height: 100%;
+  		width: 100%;
+  		justify-content: center;
+  		align-items: center;
+		display: flex;
+		margin-bottom: 30px;
+	}
+
+	.scramble-text {
+  		font-weight: 100;
+  		font-size: 28px;
+  		color: #fafafa;
 	}
